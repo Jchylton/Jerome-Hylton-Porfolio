@@ -38,45 +38,85 @@ const Background = styled.div`
 const Profile = styled.img`
   border-radius: 50%;
   margin-bottom: -150px;
-  margin-left: 50px;
+  margin-left: 35px;
   border: 4px solid white;
 `;
 
 const Coding = styled.img`
   height: 50px;
   width: 50px;
+  margin-right: 35px;
+  @media (max-width: 650px) {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+  }
 `;
 
 const PMP = styled.img`
   height: 50px;
   width: 50px;
+  margin-right: 35px;
+  @media (max-width: 650px) {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+  }
 `;
 const Prosci = styled.img`
   height: 50px;
   width: 50px;
+  margin-right: 35px;
+  @media (max-width: 650px) {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+  }
 `;
 const JS = styled.img`
   height: 50px;
   width: 50px;
+  margin-right: 35px;
+  @media (max-width: 650px) {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+  }
 `;
 const Scrum = styled.img`
   height: 50px;
   width: 50px;
+  margin-right: 35px;
+  @media (max-width: 650px) {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+  }
 `;
 const Node = styled.img`
   height: 50px;
   width: 50px;
+  margin-right: 35px;
+  @media (max-width: 650px) {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+  }
 `;
 const LogoContainer = styled.div`
-  /* border: 2px solid white; */
   padding: 5px;
-  width: 35%;
+  width: 50%;
   margin-bottom: -185px;
-  margin-right: 125px;
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
+  @media (max-width: 650px) {
+    height: 25px;
+    width: 25px;
+    margin-right: 15px;
+  }
 `;
 
 // const Box = styled.div`

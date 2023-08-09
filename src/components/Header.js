@@ -9,18 +9,22 @@ const Header = () => {
       <List>
         <HashLink to={"/#Hero"} style={linkStyle}>
           {" "}
-          Home |{" "}
+          Home{" "}
         </HashLink>
+        <p>|</p>
         <HashLink to={"/#About"} style={linkStyle}>
           {" "}
-          About Me |{" "}
+          About Me{" "}
         </HashLink>
+        <p>|</p>
         <HashLink to={"/#Expertise"} style={linkStyle}>
-          Expertise |{" "}
+          Expertise{" "}
         </HashLink>
+        <p>|</p>
         <HashLink to={"/#Projects"} style={linkStyle}>
-          Projects |{" "}
+          Projects{" "}
         </HashLink>
+        <p>|</p>
         <HashLink to={"/#Getintouch"} style={linkStyle}>
           {" "}
           Contact
@@ -37,12 +41,16 @@ const Nav = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 3px;
+  padding: 10px;
   position: fixed;
   background-color: white;
   width: 100%;
   border: 2px solid grey;
+  flex: 1;
   z-index: 100;
+  @media (max-width: 650px) {
+    font-size: 2vw;
+  }
 `;
 
 const List = styled.ul`
@@ -57,9 +65,10 @@ const List = styled.ul`
 `;
 
 const Name = styled.p`
-  width: 150px;
-  margin-left: 5px;
+width: 100%
+justify-content: left;
   font-family: arial;
+  margin-right: 15px;
 `;
 
 const linkStyle = {

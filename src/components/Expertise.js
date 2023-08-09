@@ -73,7 +73,7 @@ const Box1 = styled.div`
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 20px;
-  margin-right: 75px;
+  margin-right: 5vw;
   height: 350px;
   width: 550px;
   position: relative;
@@ -110,6 +110,9 @@ const Text = styled.p`
   text-align: center;
   font-family: arial;
   font-size: 20px;
+  @media (max-width: 950px) {
+    font-size: 2vw;
+  }
   margin-right: 10px;
   overflow: auto;
 `;
@@ -118,7 +121,9 @@ const Title2 = styled.h2`
   text-align: center;
   font-family: arial;
   font-size: 30px;
-  font-weight: bold;
+  @media (max-width: 950px) {
+    font-size: 3vw;
+  }
 `;
 
 const Pics = styled.img`

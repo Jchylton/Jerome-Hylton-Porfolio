@@ -129,6 +129,9 @@ const Input2 = styled.input`
   border: 1px solid #ccc;
   margin-top: 20px;
   border-radius: 5px;
+  @media (max-width: 650px) {
+    font-size: 2vw;
+  }
 `;
 
 const Button = styled.button`
@@ -140,14 +143,9 @@ const Button = styled.button`
   margin-top: 10px;
   border: 1px solid grey;
   border-radius: 10px;
-  cursor: pointer;
-  &:disabled {
-    opacity: 0.5;
-  }
-  &:enabled {
-    opacity: 1;
-  }
-  opacity: ${(props) => (!props.enabled ? 0.5 : 1)};
+  font-size: 24px;
+  @media (max-width: 650px) {
+    font-size: 2vw;
 `;
 
 const ButtonDiv = styled.div`
@@ -155,4 +153,5 @@ const ButtonDiv = styled.div`
   flex-direction: row;
   align-items: center;
   flex: 1;
+  }
 `;
