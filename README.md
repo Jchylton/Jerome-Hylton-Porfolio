@@ -1,3 +1,28 @@
+Jerome Hylton's Portfolio Project
+
+Background:
+The way in which my portfolio was set up differs from the typical full stack web development student in that I am a technical project manager looking to formalize my technical skills with the addition of the Concordia Web Development Diploma Program.
+
+Contents:
+My portfolio was split into 6 component files that paved the way for each section of the webpage:
+
+1. Header
+2. Hero Section
+3. About Me Section
+4. Expertise Section
+5. Projects Section
+6. Get In Touch Section
+
+For the Projects Section, I also created a data.js file that held all the various project information in a an object that I mapped through and rendered in the projects section of the webpage
+
+I also created hashlinks in the "Header" section that scroll to the particular section of the page when clicked.
+
+Finally I made my webpage dynamic in the sense that it can be viewed from any device and rendered properly. I leveraged view height/width, media queries and flex boxes to achieve the website scaling.
+
+Closing:
+
+I will continue to add to my website as I hone my web development skills but I hope you enjoy what I have created thus far!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
